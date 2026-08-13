@@ -21,10 +21,22 @@ attributes, interconnected files, and vector search.
 
 ## Installation
 
+From this repository:
+
 ```bash
-pip install -e .                                        # from this repository
+pip install -e .
+```
+
+From GitHub:
+
+```bash
 pip install git+https://github.com/FrancoFantomius/mnemosine.git
-pip install -e .[dev]                                   # extras needed to run the test suite (pytest)
+```
+
+Extras needed to run the test suite (pytest):
+
+```bash
+pip install -e .[dev]
 ```
 
 ## Quickstart
