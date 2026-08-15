@@ -109,7 +109,7 @@ This creates an indexed generated column transparently without altering your dat
 
 ## 5. File & Blob Storage
 
-Large binary files (PDFs, images, datasets) should not bloat the SQLite database file. `mnemosine` provides a content-addressed on-disk blob store through [`FileNode`](/file/FileNode).
+Large binary files (PDFs, images, datasets) should not bloat the SQLite database file. `mnemosine` provides a content-addressed on-disk blob store through [`File`](/file/File).
 
 ```python
 # Create a FileNode
