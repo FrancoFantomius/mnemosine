@@ -10,7 +10,7 @@ Storage.__enter__(self)
 
 ## Documentation
 
-Support ``with Storage(...) as db:`` by connecting.
+Support `with Storage(...) as db:` by connecting.
 
 
 **Returns:**

@@ -12,12 +12,12 @@ Node.add_embedding(self, text=None)
 
 Embed this node and store the vector.
 
-Requires ``storage.embed_fn`` to be set. When ``text`` is omitted the
-node's ``content`` is used.
+Requires `storage.embed_fn` to be set. When `text` is omitted the
+node's `content` is used.
 
 
 **Args:**
-- `text (str | None)`: Text to embed. Defaults to ``self.content``.
+- `text (str | None)`: Text to embed. Defaults to `self.content`.
 
 
 **Returns:**
@@ -25,7 +25,7 @@ node's ``content`` is used.
 
 
 **Raises:**
-- `EmbeddingRequired`: If no ``embed_fn`` is configured or there is
+- `EmbeddingRequired`: If no `embed_fn` is configured or there is
 - no text to embed.
 - `VectorError`: If the embedding function returns an invalid vector.
 

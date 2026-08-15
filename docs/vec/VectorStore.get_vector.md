@@ -10,7 +10,7 @@ VectorStore.get_vector(self, node_id: str)
 
 ## Documentation
 
-Return the stored embedding for a node, or ``None``.
+Return the stored embedding for a node, or `None`.
 
 
 **Args:**
@@ -18,7 +18,7 @@ Return the stored embedding for a node, or ``None``.
 
 
 **Returns:**
-- `list of float | None`: The embedding as a Python list, or ``None``
+- `list of float | None`: The embedding as a Python list, or `None`
 - if the node has no stored vector.
 
 

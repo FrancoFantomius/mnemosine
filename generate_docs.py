@@ -47,6 +47,7 @@ SECTION_HEADERS = {
     "Tip",
     "Tips",
 }
+_HEADER_RE = re.compile(rf"^({'|'.join(sorted(SECTION_HEADERS))}):$")
 _SPHINX_ROLE_RE = re.compile(r":(?:class|meth|func|attr|mod|ref|exc):`([^`]+)`")
 _DOUBLE_BACKTICK_RE = re.compile(r"``([^`]+)``")
 

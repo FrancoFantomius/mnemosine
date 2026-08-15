@@ -12,7 +12,7 @@ Node.refresh(self)
 
 Reload the node's fields from the database.
 
-Discards local, unsaved changes and re-reads ``path``, ``content``,
+Discards local, unsaved changes and re-reads `path`, `content`,
 metadata and timestamps.
 
 

@@ -12,9 +12,9 @@ _encode(value: int, bits: int) -> str
 
 Encode an integer as Crockford base32 over a fixed number of bits.
 
-Splits ``value`` into 5-bit groups (least significant first) and maps each
-group to a character from ``_ALPHABET``. The width is ``ceil(bits / 5)``;
-any bits above ``bits`` are silently ignored.
+Splits `value` into 5-bit groups (least significant first) and maps each
+group to a character from `_ALPHABET`. The width is `ceil(bits / 5)`;
+any bits above `bits` are silently ignored.
 
 
 **Args:**

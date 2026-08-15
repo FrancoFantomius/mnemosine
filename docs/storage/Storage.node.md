@@ -10,14 +10,14 @@ Storage.node(self, kind='text', path=None, metadata=None)
 
 ## Documentation
 
-Create a new unsaved :class:`Node`.
+Create a new unsaved `Node`.
 
-Does not write to the database until :meth:`Node.save` is called, so
+Does not write to the database until `Node.save` is called, so
 attributes can be set first.
 
 
 **Args:**
-- `kind (str)`: The node kind. Defaults to ``"text"``.
+- `kind (str)`: The node kind. Defaults to `"text"`.
 - `path (str | None)`: Optional logical name or path.
 - `metadata (dict | None)`: Initial dynamic attributes.
 

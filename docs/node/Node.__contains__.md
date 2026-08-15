@@ -10,7 +10,7 @@ Node.__contains__(self, key)
 
 ## Documentation
 
-Return whether the metadata holds ``key``.
+Return whether the metadata holds `key`.
 
 
 **Args:**
@@ -18,7 +18,7 @@ Return whether the metadata holds ``key``.
 
 
 **Returns:**
-- `bool`: ``True`` if ``key`` is present in the metadata.
+- `bool`: `True` if `key` is present in the metadata.
 
 
 **Example:**

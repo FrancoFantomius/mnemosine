@@ -18,7 +18,7 @@ Compute the content-addressed blob path for a digest.
 
 
 **Returns:**
-- `str`: A POSIX-style relative path ``blobs/<first2>/<digest>``.
+- `str`: A POSIX-style relative path `blobs/<first2>/<digest>`.
 
 
 **Example:**

@@ -14,7 +14,7 @@ Return a new 26-char ULID.
 
 The first 10 characters encode the current Unix time in milliseconds
 (48 bits) and the remaining 16 characters encode 80 bits of randomness
-generated via the CSPRNG ``secrets`` module. Because the timestamp comes
+generated via the CSPRNG `secrets` module. Because the timestamp comes
 first, ULIDs sort lexicographically in creation order.
 
 
@@ -23,7 +23,7 @@ first, ULIDs sort lexicographically in creation order.
 
 
 **Raises:**
-- `NotImplementedError`: If the platform's ``secrets``/``os.urandom``
+- `NotImplementedError`: If the platform's `secrets`/`os.urandom`
 - cannot provide cryptographic randomness.
 
 

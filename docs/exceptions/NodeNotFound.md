@@ -12,7 +12,7 @@ class NodeNotFound
 
 Raised when a node id does not exist in the database.
 
-Thrown by :meth:`mnemosine.Storage.get` unless a ``default`` is supplied.
+Thrown by `mnemosine.Storage.get` unless a `default` is supplied.
 
 Attributes:
 node_id (str): The id that could not be found.

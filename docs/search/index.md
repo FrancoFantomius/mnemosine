@@ -4,9 +4,9 @@
 
 Search: LIKE-based text search and vector k-NN.
 
-Exposes :class:`Search` (via ``storage.search``) with a text search over the
-``content``/``path``/``metadata`` columns and a vector k-NN search that
-delegates to :class:`mnemosine.vec.VectorStore`.
+Exposes `Search` (via `storage.search`) with a text search over the
+`content`/`path`/`metadata` columns and a vector k-NN search that
+delegates to `mnemosine.vec.VectorStore`.
 
 ## Class Search
 

@@ -15,12 +15,12 @@ Read a dynamic attribute without raising when missing.
 
 **Args:**
 - `key (str)`: The attribute name.
-- `default (object)`: Value returned when ``key`` is absent. Defaults
-- to ``None``.
+- `default (object)`: Value returned when `key` is absent. Defaults
+- to `None`.
 
 
 **Returns:**
-- `object`: The stored value or ``default``.
+- `object`: The stored value or `default`.
 
 
 **Example:**

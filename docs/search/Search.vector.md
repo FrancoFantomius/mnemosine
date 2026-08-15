@@ -12,25 +12,25 @@ Search.vector(self, vector, top_k=10, metric='cosine')
 
 k-NN over stored embeddings.
 
-Delegates to :meth:`mnemosine.vec.VectorStore.knn`, which uses the
-``sqlite-vec`` virtual table when available and a brute-force scan
+Delegates to `mnemosine.vec.VectorStore.knn`, which uses the
+`sqlite-vec` virtual table when available and a brute-force scan
 otherwise.
 
 
 **Args:**
 - `vector (sequence of float)`: The query embedding.
 - `top_k (int)`: Number of nearest neighbours to return.
-- `metric (str)`: Distance metric: ``"cosine"`` (default), ``"l2"``
-- or ``"dot"``.
+- `metric (str)`: Distance metric: `"cosine"` (default), `"l2"`
+- or `"dot"`.
 
 
 **Returns:**
-- `list of dict`: Each item has ``node`` (Node) and ``distance``
+- `list of dict`: Each item has `node` (Node) and `distance`
 - (float), ordered nearest-first.
 
 
 **Raises:**
-- `VectorError`: If ``top_k < 1`` or the vector dimension conflicts
+- `VectorError`: If `top_k < 1` or the vector dimension conflicts
 - with stored embeddings.
 
 

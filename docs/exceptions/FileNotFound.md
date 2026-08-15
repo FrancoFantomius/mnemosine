@@ -12,7 +12,7 @@ class FileNotFound
 
 Raised when a File has no stored content to read.
 
-Either the file node has never had content written (``write()`` not yet
+Either the file node has never had content written (`write()` not yet
 called) or the underlying blob file is missing from the blob store.
 
 Attributes:

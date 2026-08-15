@@ -10,7 +10,7 @@ Graph._neighbor_ids(self, node_id, link_type=None)
 
 ## Documentation
 
-Return the ids of nodes directly connected to ``node_id``.
+Return the ids of nodes directly connected to `node_id`.
 
 Internal BFS helper; works in both link directions.
 

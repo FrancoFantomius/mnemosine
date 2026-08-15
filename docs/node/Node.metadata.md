@@ -13,7 +13,7 @@ Node.metadata(self)
 The dynamic attribute dictionary.
 
 Mutating the returned dict (or replacing it) changes the node; persist
-with :meth:`save`.
+with `save`.
 
 
 **Returns:**
@@ -39,7 +39,7 @@ Replace the entire metadata dictionary.
 
 
 **Args:**
-- `value (dict | None)`: New metadata. ``None`` becomes an empty dict.
+- `value (dict | None)`: New metadata. `None` becomes an empty dict.
 
 
 **Example:**

@@ -13,7 +13,7 @@ _base(conn)
 Apply the base schema (migration 001).
 
 Executes every statement in :data:`mnemosine.schema.BASE_SCHEMA` against
-the connection. Called only when a database's ``user_version`` is below 1.
+the connection. Called only when a database's `user_version` is below 1.
 
 
 **Args:**

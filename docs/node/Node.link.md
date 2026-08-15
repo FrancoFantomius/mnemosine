@@ -10,15 +10,15 @@ Node.link(self, target, link_type='link', metadata=None)
 
 ## Documentation
 
-Create a link from this node to ``target``.
+Create a link from this node to `target`.
 
-Convenience wrapper around :meth:`mnemosine.Storage.link`. Idempotent:
+Convenience wrapper around `mnemosine.Storage.link`. Idempotent:
 re-linking the same pair and type returns the existing link.
 
 
 **Args:**
 - `target (Node | str)`: The target node, or its id.
-- `link_type (str)`: The link type. Defaults to ``"link"``.
+- `link_type (str)`: The link type. Defaults to `"link"`.
 - `metadata (dict | None)`: Arbitrary JSON-serializable link data.
 
 

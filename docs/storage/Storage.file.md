@@ -10,10 +10,10 @@ Storage.file(self, name=None, mime=None)
 
 ## Documentation
 
-Create a new unsaved :class:`File`.
+Create a new unsaved `File`.
 
 Binary content is written to the blob store with
-:meth:`File.write`; until then the file has no content.
+`File.write`; until then the file has no content.
 
 
 **Args:**

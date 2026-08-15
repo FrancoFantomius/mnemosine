@@ -12,7 +12,7 @@ VectorStore._ensure_fallback_table(self)
 
 Create the fallback table if it does not exist.
 
-Creates ``embedding_fallback(node_id, dims, vec)``, used when the
+Creates `embedding_fallback(node_id, dims, vec)`, used when the
 sqlite-vec extension is unavailable.
 
 

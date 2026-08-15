@@ -12,12 +12,12 @@ Storage._links_for(self, node_id, direction='both', link_type=None)
 
 Return links incident to a node in a given direction.
 
-Internal: called by :meth:`Node.links`.
+Internal: called by `Node.links`.
 
 
 **Args:**
 - `node_id (str)`: The node id.
-- `direction (str)`: ``"out"``, ``"in"`` or ``"both"``.
+- `direction (str)`: `"out"`, `"in"` or `"both"`.
 - `link_type (str | None)`: Optional type filter.
 
 

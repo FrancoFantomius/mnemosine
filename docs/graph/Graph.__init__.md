@@ -12,7 +12,7 @@ Graph.__init__(self, storage)
 
 Wrap a Storage and expose graph operations.
 
-Access a ``Graph`` through ``storage.graph`` rather than constructing
+Access a `Graph` through `storage.graph` rather than constructing
 it directly.
 
 

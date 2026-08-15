@@ -12,7 +12,7 @@ Storage._save_node(self, node)
 
 Persist a node inside a transaction.
 
-Internal: called by :meth:`Node.save`.
+Internal: called by `Node.save`.
 
 
 **Args:**

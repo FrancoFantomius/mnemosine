@@ -12,7 +12,7 @@ Search.__init__(self, storage)
 
 Wrap a Storage and expose search operations.
 
-Access a ``Search`` through ``storage.search`` rather than
+Access a `Search` through `storage.search` rather than
 constructing it directly.
 
 

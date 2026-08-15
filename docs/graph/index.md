@@ -7,7 +7,7 @@ Graph traversal over node_links using recursive CTEs and BFS.
 The links between nodes form an undirected graph (each link connects two
 nodes; direction is a property of the link, traversal can go either way).
 This module provides neighbor lookup, breadth-first subgraph expansion via a
-``WITH RECURSIVE`` query, and shortest-path search.
+`WITH RECURSIVE` query, and shortest-path search.
 
 ## Functions
 

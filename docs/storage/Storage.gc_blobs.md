@@ -13,7 +13,7 @@ Storage.gc_blobs(self) -> int
 Delete blob files no longer referenced by any node.
 
 Walks the blob store, removes every file whose relative path is not
-referenced by the ``blobs`` table (and is not a temp file), then prunes
+referenced by the `blobs` table (and is not a temp file), then prunes
 empty directories. Return the number of files removed.
 
 

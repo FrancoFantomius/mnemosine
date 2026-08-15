@@ -18,7 +18,7 @@ Check whether a node id exists.
 
 
 **Returns:**
-- `bool`: ``True`` if a node with that id exists.
+- `bool`: `True` if a node with that id exists.
 
 
 **Example:**

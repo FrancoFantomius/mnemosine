@@ -12,7 +12,7 @@ VectorStore.__init__(self, storage)
 
 Wrap a Storage and expose vector operations.
 
-Access a ``VectorStore`` through ``storage.vec`` rather than
+Access a `VectorStore` through `storage.vec` rather than
 constructing it directly.
 
 

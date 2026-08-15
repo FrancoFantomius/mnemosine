@@ -10,14 +10,14 @@ Link.from_row(cls, storage, row)
 
 ## Documentation
 
-Build a Link from a ``node_links`` row.
+Build a Link from a `node_links` row.
 
 Internal helper.
 
 
 **Args:**
 - `storage (Storage)`: The owning storage.
-- `row (sqlite3.Row)`: A row from the ``node_links`` table.
+- `row (sqlite3.Row)`: A row from the `node_links` table.
 
 
 **Returns:**

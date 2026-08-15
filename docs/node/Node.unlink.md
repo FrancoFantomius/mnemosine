@@ -10,7 +10,7 @@ Node.unlink(self, target, link_type='link')
 
 ## Documentation
 
-Remove a link between this node and ``target``.
+Remove a link between this node and `target`.
 
 
 **Args:**

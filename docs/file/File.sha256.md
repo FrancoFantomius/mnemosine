@@ -10,9 +10,9 @@ File.sha256(self)
 
 ## Documentation
 
-Hex SHA-256 digest of the stored content, or ``None``.
+Hex SHA-256 digest of the stored content, or `None`.
 
-Populated after :meth:`write` (or when the node is loaded from the
+Populated after `write` (or when the node is loaded from the
 database and has content).
 
 

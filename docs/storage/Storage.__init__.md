@@ -12,17 +12,17 @@ Storage.__init__(self, path='mnemosine.db', blob_root=None)
 
 Create a Storage handle (no connection is opened yet).
 
-Call :meth:`connect` (or use the ``with`` statement) before any
+Call `connect` (or use the `with` statement) before any
 operation. File content lives in the blob store directory while node
 metadata and links live in the SQLite database.
 
 
 **Args:**
 - `path (str | os.PathLike)`: Path to the SQLite database file.
-- Defaults to ``"mnemosine.db"``.
+- Defaults to `"mnemosine.db"`.
 - `blob_root (str | os.PathLike | None)`: Directory where file
 - contents are stored. When omitted, defaults to a sibling
-- directory named ``<db-stem>.blobs`` next to the database.
+- directory named `<db-stem>.blobs` next to the database.
 
 
 **Returns:**

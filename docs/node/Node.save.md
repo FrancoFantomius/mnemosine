@@ -14,7 +14,7 @@ Persist this node to the database.
 
 Inserts a new row on first call, or updates the existing row on
 subsequent calls. Wrapped in a transaction; when called inside an
-outer :meth:`mnemosine.Storage.transaction`, it joins that
+outer `mnemosine.Storage.transaction`, it joins that
 transaction instead.
 
 

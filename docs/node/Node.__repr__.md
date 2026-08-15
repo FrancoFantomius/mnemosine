@@ -14,7 +14,7 @@ A short, readable representation of the node.
 
 
 **Returns:**
-- `str`: ``<Node id='...' kind='...'>``.
+- `str`: `<Node id='...' kind='...'>`.
 
 
 **Example:**

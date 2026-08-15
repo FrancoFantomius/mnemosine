@@ -12,20 +12,20 @@ File.__init__(self, storage, name=None, mime=None, id=None, content=None, metada
 
 Create a new, unsaved file node.
 
-The node row is only persisted when content is written or :meth:`save`
-is called explicitly. Use :meth:`mnemosine.Storage.file` in normal
+The node row is only persisted when content is written or `save`
+is called explicitly. Use `mnemosine.Storage.file` in normal
 code.
 
 
 **Args:**
 - `storage (Storage)`: The owning storage.
 - `name (str | None)`: Logical file name or path (stored in
-- ``node.path``).
-- `mime (str | None)`: MIME type, stored under the ``"mime"``
+- `node.path`).
+- `mime (str | None)`: MIME type, stored under the `"mime"`
 - metadata key.
 - `id (str | None)`: Explicit node id; defaults to a fresh ULID.
 - `content (bytes | str | None)`: Initial content; ignored in favour
-- of the blob store once :meth:`write` is used.
+- of the blob store once `write` is used.
 - `metadata (dict | None)`: Extra dynamic attributes.
 
 

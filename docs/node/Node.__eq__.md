@@ -18,7 +18,7 @@ Two nodes are equal when they share the same id.
 
 
 **Returns:**
-- `bool`: ``True`` if ``other`` is a Node with the same id.
+- `bool`: `True` if `other` is a Node with the same id.
 
 
 **Example:**

@@ -10,7 +10,7 @@ Graph.reachable(self, node, max_depth=100)
 
 ## Documentation
 
-Return all nodes reachable from ``node`` (alias of ``subgraph``).
+Return all nodes reachable from `node` (alias of `subgraph`).
 
 
 **Args:**
@@ -19,7 +19,7 @@ Return all nodes reachable from ``node`` (alias of ``subgraph``).
 
 
 **Returns:**
-- `list of dict`: The same shape as :meth:`subgraph`.
+- `list of dict`: The same shape as `subgraph`.
 
 
 **Example:**

@@ -10,11 +10,11 @@ File.size_bytes(self)
 
 ## Documentation
 
-Size of the stored content in bytes, or ``None``.
+Size of the stored content in bytes, or `None`.
 
 
 **Returns:**
-- `int | None`: The content size after :meth:`write`.
+- `int | None`: The content size after `write`.
 
 
 **Example:**

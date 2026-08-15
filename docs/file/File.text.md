@@ -23,7 +23,7 @@ Return the stored content decoded as text.
 
 **Raises:**
 - `FileNotFound`: If the file has no stored content.
-- `UnicodeDecodeError`: If the bytes are not valid in ``encoding``.
+- `UnicodeDecodeError`: If the bytes are not valid in `encoding`.
 
 
 **Example:**

@@ -10,11 +10,11 @@ load(conn) -> bool
 
 ## Documentation
 
-Load the sqlite-vec extension into ``conn``.
+Load the sqlite-vec extension into `conn`.
 
-The ``sqlite_vec`` package import is attempted only once, but the
+The `sqlite_vec` package import is attempted only once, but the
 extension itself must be registered on every connection, so this should be
-called for each new connection (``Storage.connect`` does this
+called for each new connection (`Storage.connect` does this
 automatically).
 
 
@@ -23,7 +23,7 @@ automatically).
 
 
 **Returns:**
-- `bool`: ``True`` if the extension is now usable on ``conn``, ``False``
+- `bool`: `True` if the extension is now usable on `conn`, `False`
 - if it could not be imported or loaded (the library falls back to the
 - brute-force store in that case).
 

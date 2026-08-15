@@ -22,7 +22,7 @@ Read a link attribute.
 
 
 **Raises:**
-- `KeyError`: If ``key`` is absent.
+- `KeyError`: If `key` is absent.
 
 
 **Example:**

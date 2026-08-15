@@ -14,7 +14,7 @@ A short, readable representation of the file.
 
 
 **Returns:**
-- `str`: ``<File id='...' name='...' sha256=...>``.
+- `str`: `<File id='...' name='...' sha256=...>`.
 
 
 **Example:**

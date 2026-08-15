@@ -10,7 +10,7 @@ VectorStore._ensure_native(self, dims: int, metric: str)
 
 ## Documentation
 
-Create the ``nodes_vec`` virtual table and record metadata.
+Create the `nodes_vec` virtual table and record metadata.
 
 Fixes the table dimension/metric on first use; a later vector with a
 different dimension raises. Validates the metric against
@@ -19,7 +19,7 @@ different dimension raises. Validates the metric against
 
 **Args:**
 - `dims (int)`: Embedding dimension.
-- `metric (str)`: Distance metric for the ``vec0`` table.
+- `metric (str)`: Distance metric for the `vec0` table.
 
 
 **Returns:**
@@ -27,7 +27,7 @@ different dimension raises. Validates the metric against
 
 
 **Raises:**
-- `VectorError`: If ``metric`` is unsupported or the dimension
+- `VectorError`: If `metric` is unsupported or the dimension
 - conflicts with previously stored vectors.
 
 

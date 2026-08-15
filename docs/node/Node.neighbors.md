@@ -12,17 +12,17 @@ Node.neighbors(self, link_type=None, direction='both')
 
 Return the nodes directly connected to this node.
 
-Delegates to :meth:`mnemosine.Graph.neighbors`.
+Delegates to `mnemosine.Graph.neighbors`.
 
 
 **Args:**
 - `link_type (str | None)`: Only consider links of this type.
-- `direction (str)`: ``"out"``, ``"in"`` or ``"both"``.
+- `direction (str)`: `"out"`, `"in"` or `"both"`.
 
 
 **Returns:**
-- `list of dict`: Each item has ``node`` (a Node), ``link_type``
-- (str) and ``metadata`` (dict).
+- `list of dict`: Each item has `node` (a Node), `link_type`
+- (str) and `metadata` (dict).
 
 
 **Example:**

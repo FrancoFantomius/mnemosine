@@ -4,7 +4,7 @@
 
 The Storage object: connection lifecycle, schema, factories, and queries.
 
-A :class:`Storage` wraps a single SQLite database file, its on-disk blob
+A `Storage` wraps a single SQLite database file, its on-disk blob
 store, and the high-level object model (nodes, files, links, graph, search,
 vectors). It is the main entry point of the library::
 

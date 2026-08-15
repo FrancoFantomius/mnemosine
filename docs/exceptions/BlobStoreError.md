@@ -12,7 +12,7 @@ class BlobStoreError
 
 Raised when the on-disk blob store fails (I/O, permissions, corruption).
 
-Reserved for blob-store-level failures such as an unwritable ``blob_root``
+Reserved for blob-store-level failures such as an unwritable `blob_root`
 or an unreadable blob file.
 
 

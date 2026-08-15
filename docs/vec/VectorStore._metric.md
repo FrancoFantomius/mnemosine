@@ -10,11 +10,11 @@ VectorStore._metric(self)
 
 ## Documentation
 
-Return the recorded distance metric (defaults to ``"cosine"``).
+Return the recorded distance metric (defaults to `"cosine"`).
 
 
 **Returns:**
-- `str`: The metric stored in ``vec_meta``, or ``"cosine"``.
+- `str`: The metric stored in `vec_meta`, or `"cosine"`.
 
 
 **Example:**

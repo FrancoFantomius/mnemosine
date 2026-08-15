@@ -14,7 +14,7 @@ A short, readable representation of the link.
 
 
 **Returns:**
-- `str`: ``<Link 'src' -[type]-> 'dst'>``.
+- `str`: `<Link 'src' -[type]-> 'dst'>`.
 
 
 **Example:**

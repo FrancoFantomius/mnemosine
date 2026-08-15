@@ -12,7 +12,7 @@ VectorStore._vec_to_list(raw)
 
 Convert a stored vector (bytes or JSON) into a Python list.
 
-``sqlite-vec`` returns raw little-endian float32 bytes; the fallback
+`sqlite-vec` returns raw little-endian float32 bytes; the fallback
 table stores JSON text. Both are handled here.
 
 

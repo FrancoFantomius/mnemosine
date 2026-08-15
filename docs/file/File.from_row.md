@@ -12,12 +12,12 @@ File.from_row(cls, storage, row)
 
 Build a File from a database row, loading its blob metadata.
 
-Internal helper used by :meth:`mnemosine.Storage.get`.
+Internal helper used by `mnemosine.Storage.get`.
 
 
 **Args:**
 - `storage (Storage)`: The owning storage.
-- `row (sqlite3.Row)`: A row from the ``nodes`` table.
+- `row (sqlite3.Row)`: A row from the `nodes` table.
 
 
 **Returns:**

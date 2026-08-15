@@ -14,7 +14,7 @@ Whether the database connection is currently open.
 
 
 **Returns:**
-- `bool`: ``True`` if connected.
+- `bool`: `True` if connected.
 
 
 **Example:**

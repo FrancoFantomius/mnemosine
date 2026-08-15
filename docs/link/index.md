@@ -4,9 +4,9 @@
 
 The Link model: a typed, metadata-carrying edge between two nodes.
 
-A link connects a source node to a target node with a ``link_type`` and an
-optional JSON ``metadata`` payload (weights, labels, timestamps, ...). The
-underlying ``node_links`` table treats ``(source_id, target_id, link_type)``
+A link connects a source node to a target node with a `link_type` and an
+optional JSON `metadata` payload (weights, labels, timestamps, ...). The
+underlying `node_links` table treats `(source_id, target_id, link_type)`
 as a primary key, so linking the same pair twice with the same type is
 idempotent.
 

@@ -12,7 +12,7 @@ class EmbeddingRequired
 
 Raised when an embedding is requested but cannot be produced.
 
-Two situations: no ``embed_fn`` has been configured on the ``Storage``, or
+Two situations: no `embed_fn` has been configured on the `Storage`, or
 the node has no text content to embed.
 
 

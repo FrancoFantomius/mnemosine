@@ -10,24 +10,24 @@ Graph.neighbors(self, node, link_type=None, direction='both')
 
 ## Documentation
 
-Return the nodes directly connected to ``node``.
+Return the nodes directly connected to `node`.
 
 
 **Args:**
 - `node (Node | str)`: The node (or id) to inspect.
 - `link_type (str | None)`: Only follow links of this type.
-- `direction (str)`: ``"out"`` (node is the link source), ``"in"``
-- (node is the link target) or ``"both"``.
+- `direction (str)`: `"out"` (node is the link source), `"in"`
+- (node is the link target) or `"both"`.
 
 
 **Returns:**
-- `list of dict`: Each item contains ``node`` (Node), ``link_type``
-- (str) and ``metadata`` (dict).
+- `list of dict`: Each item contains `node` (Node), `link_type`
+- (str) and `metadata` (dict).
 
 
 **Raises:**
-- `ValueError`: If ``direction`` is not ``"out"``, ``"in"`` or
-- ``"both"``.
+- `ValueError`: If `direction` is not `"out"`, `"in"` or
+- `"both"`.
 
 
 **Example:**

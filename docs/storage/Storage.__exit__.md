@@ -10,7 +10,7 @@ Storage.__exit__(self, *exc)
 
 ## Documentation
 
-Close the connection when leaving the ``with`` block.
+Close the connection when leaving the `with` block.
 
 
 **Args:**
@@ -18,4 +18,4 @@ Close the connection when leaving the ``with`` block.
 
 
 **Returns:**
-- `bool | None`: Always ``None`` (exceptions propagate).
+- `bool | None`: Always `None` (exceptions propagate).

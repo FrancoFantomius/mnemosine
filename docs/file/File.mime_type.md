@@ -14,7 +14,7 @@ The MIME type of this file.
 
 
 **Returns:**
-- `str | None`: The ``"mime"`` metadata value, if set.
+- `str | None`: The `"mime"` metadata value, if set.
 
 
 **Example:**

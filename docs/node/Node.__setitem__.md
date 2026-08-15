@@ -12,7 +12,7 @@ Node.__setitem__(self, key, value)
 
 Write a dynamic attribute into the node's metadata.
 
-Does not persist until :meth:`save` is called.
+Does not persist until `save` is called.
 
 
 **Args:**

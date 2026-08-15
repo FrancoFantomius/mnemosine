@@ -4,13 +4,13 @@
 
 sqlite-vec integration with a graceful, dependency-free fallback.
 
-If the ``sqlite-vec`` package is importable, a ``vec0`` virtual table provides
+If the `sqlite-vec` package is importable, a `vec0` virtual table provides
 k-NN search. Otherwise vectors are stored as JSON in a plain table and searched
 with a brute-force scan, so embeddings are never lost when the extension is
 unavailable.
 
 The metric and dimension are fixed on the first stored vector and recorded in
-the ``vec_meta`` table; subsequent vectors must match that dimension.
+the `vec_meta` table; subsequent vectors must match that dimension.
 
 ## Functions
 

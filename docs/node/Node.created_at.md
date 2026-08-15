@@ -10,11 +10,11 @@ Node.created_at(self)
 
 ## Documentation
 
-Creation timestamp (ISO-8601 UTC), ``None`` until saved.
+Creation timestamp (ISO-8601 UTC), `None` until saved.
 
 
 **Returns:**
-- `str | None`: The creation timestamp after the first :meth:`save`.
+- `str | None`: The creation timestamp after the first `save`.
 
 
 **Example:**

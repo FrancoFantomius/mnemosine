@@ -12,7 +12,7 @@ File.write(self, data: bytes) -> str
 
 Store bytes (or text) as this file's content.
 
-Convenience wrapper around :meth:`write_stream`. Strings are encoded
+Convenience wrapper around `write_stream`. Strings are encoded
 as UTF-8. The bytes are streamed to a temporary file, hashed, then
 atomically moved to their content-addressed location. Replaces any
 previous content.

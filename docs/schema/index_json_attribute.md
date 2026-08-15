@@ -12,26 +12,26 @@ index_json_attribute(conn, attr: str, as_type: str='TEXT') -> str
 
 Materialize a metadata JSON attribute as a generated column plus index.
 
-Adds a ``VIRTUAL`` generated column to ``nodes`` that extracts
-``metadata.attr`` (using ``json_extract``) and creates an index on it, so
-``WHERE metadata->'attr' = ...`` style queries can use the index. Safe to
+Adds a `VIRTUAL` generated column to `nodes` that extracts
+`metadata.attr` (using `json_extract`) and creates an index on it, so
+`WHERE metadata->'attr' = ...` style queries can use the index. Safe to
 call repeatedly: existing columns and indexes are left untouched.
 
 
 **Args:**
 - `conn (sqlite3.Connection)`: An open connection to the database.
 - `attr (str)`: The metadata attribute to index.
-- `as_type (str)`: SQL type for the column: ``TEXT``, ``INTEGER``,
-- ``REAL`` or ``BLOB``. Defaults to ``TEXT``.
+- `as_type (str)`: SQL type for the column: `TEXT`, `INTEGER`,
+- `REAL` or `BLOB`. Defaults to `TEXT`.
 
 
 **Returns:**
-- `str`: The name of the generated column (``<attr>_gen``).
+- `str`: The name of the generated column (`<attr>_gen`).
 
 
 **Raises:**
-- `ValueError`: If ``as_type`` is not one of ``TEXT``/``INTEGER``/
-- ``REAL``/``BLOB``.
+- `ValueError`: If `as_type` is not one of `TEXT`/`INTEGER`/
+- `REAL`/`BLOB`.
 
 
 **Example:**

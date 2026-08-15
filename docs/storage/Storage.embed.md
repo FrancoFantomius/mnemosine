@@ -12,12 +12,12 @@ Storage.embed(self, node, text=None)
 
 Compute and store an embedding for a node.
 
-See :func:`mnemosine.embed.embed`. Requires ``embed_fn``.
+See `mnemosine.embed.embed`. Requires `embed_fn`.
 
 
 **Args:**
 - `node (Node)`: The node to embed.
-- `text (str | None)`: Optional text; defaults to ``node.content``.
+- `text (str | None)`: Optional text; defaults to `node.content`.
 
 
 **Returns:**
@@ -25,7 +25,7 @@ See :func:`mnemosine.embed.embed`. Requires ``embed_fn``.
 
 
 **Raises:**
-- `EmbeddingRequired`: If ``embed_fn`` is unset or there is no text.
+- `EmbeddingRequired`: If `embed_fn` is unset or there is no text.
 - `VectorError`: If the embedding function returns an invalid vector.
 
 

@@ -12,7 +12,7 @@ Storage.close(self)
 
 Close the database connection.
 
-Safe to call when already closed. After closing, call :meth:`connect`
+Safe to call when already closed. After closing, call `connect`
 again to reopen.
 
 

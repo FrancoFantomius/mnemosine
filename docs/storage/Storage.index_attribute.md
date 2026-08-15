@@ -12,14 +12,14 @@ Storage.index_attribute(self, attr, as_type='TEXT')
 
 Add a generated column and index for a JSON metadata attribute.
 
-See :func:`mnemosine.schema.index_json_attribute`. Enables fast
+See `mnemosine.schema.index_json_attribute`. Enables fast
 lookups on dynamic attributes without migrations.
 
 
 **Args:**
 - `attr (str)`: The metadata attribute to index.
-- `as_type (str)`: SQL type: ``TEXT``, ``INTEGER``, ``REAL`` or
-- ``BLOB``. Defaults to ``TEXT``.
+- `as_type (str)`: SQL type: `TEXT`, `INTEGER`, `REAL` or
+- `BLOB`. Defaults to `TEXT`.
 
 
 **Returns:**
@@ -27,7 +27,7 @@ lookups on dynamic attributes without migrations.
 
 
 **Raises:**
-- `ValueError`: If ``as_type`` is not a supported SQL type.
+- `ValueError`: If `as_type` is not a supported SQL type.
 
 
 **Example:**

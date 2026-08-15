@@ -12,7 +12,7 @@ Storage._delete_node(self, node_id)
 
 Delete a node and its dependent data inside a transaction.
 
-Internal: called by :meth:`Node.delete`. Removes the embedding, then
+Internal: called by `Node.delete`. Removes the embedding, then
 the node row (links and blob row cascade via foreign keys).
 
 

@@ -12,14 +12,14 @@ Node.update(self, **values)
 
 Set several dynamic attributes at once.
 
-Merges ``values`` into the metadata. Returns ``self`` so calls can be
-chained. Persist with :meth:`save`.
+Merges `values` into the metadata. Returns `self` so calls can be
+chained. Persist with `save`.
 
 
 **Args:**
 - `**values`: Arbitrary keyword arguments stored as attributes. Note
-- that ``content=...`` goes into the JSON metadata, not the
-- ``content`` column - assign :attr:`content` directly for that.
+- that `content=...` goes into the JSON metadata, not the
+- `content` column - assign `content` directly for that.
 
 
 **Returns:**

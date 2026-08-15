@@ -18,7 +18,7 @@ Remove a dynamic attribute from the node's metadata.
 
 
 **Raises:**
-- `KeyError`: If ``key`` is not present in the metadata.
+- `KeyError`: If `key` is not present in the metadata.
 
 
 **Example:**

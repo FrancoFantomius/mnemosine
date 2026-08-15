@@ -10,12 +10,12 @@ escape_like(term: str) -> str
 
 ## Documentation
 
-Escape ``LIKE`` wildcards so user input matches literally.
+Escape `LIKE` wildcards so user input matches literally.
 
-SQL's ``LIKE`` treats ``%`` and ``_`` as wildcards and ``\`` as the
+SQL's `LIKE` treats `%` and `_` as wildcards and `\` as the
 escape character. This function escapes all three so a query such as
-``"100%"`` matches the literal text ``100%`` instead of everything
-starting with ``100``. The SQL must use ``ESCAPE '\'``.
+`"100%"` matches the literal text `100%` instead of everything
+starting with `100`. The SQL must use `ESCAPE '\'`.
 
 
 **Args:**
@@ -23,7 +23,7 @@ starting with ``100``. The SQL must use ``ESCAPE '\'``.
 
 
 **Returns:**
-- `str`: The same term with ``\``, ``%`` and ``_`` escaped.
+- `str`: The same term with `\`, `%` and `_` escaped.
 
 
 **Example:**

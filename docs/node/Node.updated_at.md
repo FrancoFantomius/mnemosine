@@ -12,11 +12,11 @@ Node.updated_at(self)
 
 Last modification timestamp (ISO-8601 UTC).
 
-Bumped on every :meth:`save`.
+Bumped on every `save`.
 
 
 **Returns:**
-- `str | None`: The last update timestamp, or ``None`` before the
+- `str | None`: The last update timestamp, or `None` before the
 - first save.
 
 

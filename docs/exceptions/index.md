@@ -4,7 +4,7 @@
 
 Exceptions raised by mnemosine.
 
-All errors raised by the library derive from :class:`MnemosineError`, so
+All errors raised by the library derive from `MnemosineError`, so
 callers can catch a single type when they want to handle every mnemosine
 failure.
 

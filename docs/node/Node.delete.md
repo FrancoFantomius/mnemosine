@@ -12,9 +12,9 @@ Node.delete(self)
 
 Delete this node from the database.
 
-Also removes its links (via ``ON DELETE CASCADE``), blob metadata row
+Also removes its links (via `ON DELETE CASCADE`), blob metadata row
 and any stored embedding. Blob files on disk are left for
-:meth:`mnemosine.Storage.gc_blobs`.
+`mnemosine.Storage.gc_blobs`.
 
 
 **Returns:**

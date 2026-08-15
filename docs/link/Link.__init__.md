@@ -12,8 +12,8 @@ Link.__init__(self, storage, source_id, target_id, link_type, metadata=None, cre
 
 Create an in-memory Link.
 
-Normal code should use :meth:`Link.create`,
-:meth:`mnemosine.Storage.link` or :meth:`mnemosine.Node.link` instead.
+Normal code should use `Link.create`,
+`mnemosine.Storage.link` or `mnemosine.Node.link` instead.
 
 
 **Args:**
@@ -23,7 +23,7 @@ Normal code should use :meth:`Link.create`,
 - `link_type (str)`: The link type.
 - `metadata (dict | None)`: Optional link attributes.
 - `created_at (str | None)`: ISO-8601 timestamp; defaults to now when
-- created via :meth:`Link.create`.
+- created via `Link.create`.
 
 
 **Returns:**

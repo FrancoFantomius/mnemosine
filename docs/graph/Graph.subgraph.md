@@ -10,10 +10,10 @@ Graph.subgraph(self, node, max_depth=1, link_type=None)
 
 ## Documentation
 
-Return every node reachable from ``node`` within ``max_depth`` hops.
+Return every node reachable from `node` within `max_depth` hops.
 
-Uses a ``WITH RECURSIVE`` CTE; cycle-safe because the recursion depth
-is bounded and rows are deduplicated with ``UNION``.
+Uses a `WITH RECURSIVE` CTE; cycle-safe because the recursion depth
+is bounded and rows are deduplicated with `UNION`.
 
 
 **Args:**
@@ -23,7 +23,7 @@ is bounded and rows are deduplicated with ``UNION``.
 
 
 **Returns:**
-- `list of dict`: Each item has ``node`` (Node) and ``depth`` (int),
+- `list of dict`: Each item has `node` (Node) and `depth` (int),
 - ordered by depth.
 
 

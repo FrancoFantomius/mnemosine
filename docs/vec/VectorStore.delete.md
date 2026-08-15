@@ -10,7 +10,7 @@ VectorStore.delete(self, node_id: str) -> None
 
 ## Documentation
 
-Remove the embedding for a node and clear its ``embedding`` flag.
+Remove the embedding for a node and clear its `embedding` flag.
 
 Touches both the native and fallback tables so the vector is removed
 whichever path stored it. Does not delete the node itself.

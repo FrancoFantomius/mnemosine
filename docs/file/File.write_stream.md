@@ -12,14 +12,14 @@ File.write_stream(self, fileobj, chunk_size: int=1 << 16) -> str
 
 Stream content from a binary file object into the blob store.
 
-Reads ``fileobj`` in chunks of ``chunk_size`` bytes, hashing as it
+Reads `fileobj` in chunks of `chunk_size` bytes, hashing as it
 goes, so arbitrarily large files never fully load into memory. The
 data is written to a temp file first and atomically renamed to its
 final content-addressed path.
 
 
 **Args:**
-- `fileobj (BinaryIO)`: Any object exposing ``read(n) -> bytes``.
+- `fileobj (BinaryIO)`: Any object exposing `read(n) -> bytes`.
 - `chunk_size (int)`: Read chunk size in bytes (default 64 KiB).
 
 

@@ -14,8 +14,8 @@ Return the Link objects incident to this node.
 
 
 **Args:**
-- `direction (str)`: ``"out"`` (this node is source), ``"in"`` (this
-- node is target) or ``"both"``.
+- `direction (str)`: `"out"` (this node is source), `"in"` (this
+- node is target) or `"both"`.
 - `link_type (str | None)`: Only links of this type.
 
 

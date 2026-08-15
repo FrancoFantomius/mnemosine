@@ -12,17 +12,17 @@ Node.from_row(cls, storage, row)
 
 Build a node from a database row.
 
-Internal helper used by :meth:`mnemosine.Storage.get`. Do not call
+Internal helper used by `mnemosine.Storage.get`. Do not call
 directly.
 
 
 **Args:**
 - `storage (Storage)`: The owning storage.
-- `row (sqlite3.Row)`: A row from the ``nodes`` table.
+- `row (sqlite3.Row)`: A row from the `nodes` table.
 
 
 **Returns:**
-- `Node`: A loaded node (subclass for ``kind == "file"``).
+- `Node`: A loaded node (subclass for `kind == "file"`).
 
 
 **Example:**

@@ -10,11 +10,11 @@ VectorStore._dims(self)
 
 ## Documentation
 
-Return the recorded embedding dimension, or ``None``.
+Return the recorded embedding dimension, or `None`.
 
 
 **Returns:**
-- `int | None`: The dimension recorded in ``vec_meta``.
+- `int | None`: The dimension recorded in `vec_meta`.
 
 
 **Example:**

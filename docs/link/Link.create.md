@@ -21,7 +21,7 @@ key error. Wrapped in a transaction.
 - `storage (Storage)`: The owning storage.
 - `source (Node | str)`: Source node or id.
 - `target (Node | str)`: Target node or id.
-- `link_type (str)`: The link type. Defaults to ``"link"``.
+- `link_type (str)`: The link type. Defaults to `"link"`.
 - `metadata (dict | None)`: Optional JSON-serializable attributes.
 
 

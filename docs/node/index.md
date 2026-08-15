@@ -4,10 +4,10 @@
 
 The Node model: a schema-less document with JSON metadata.
 
-A node is the core entity of mnemosine. It always has an ``id`` and a
-``kind``, plus a JSON ``metadata`` dictionary that can hold any attributes
-without any schema migration. Optional ``path`` and ``content`` fields cover
-text documents; binary content is handled by the :class:`~mnemosine.file.File`
+A node is the core entity of mnemosine. It always has an `id` and a
+`kind`, plus a JSON `metadata` dictionary that can hold any attributes
+without any schema migration. Optional `path` and `content` fields cover
+text documents; binary content is handled by the `~mnemosine.file.File`
 subclass.
 
 ## Class Node

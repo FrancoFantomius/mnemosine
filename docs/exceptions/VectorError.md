@@ -13,7 +13,7 @@ class VectorError
 Raised for vector-related problems.
 
 Covers dimension mismatches, unsupported metrics, malformed vectors and
-any other error produced by the vector store (native ``sqlite-vec`` or the
+any other error produced by the vector store (native `sqlite-vec` or the
 brute-force fallback).
 
 

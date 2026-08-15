@@ -12,9 +12,9 @@ _json_path_key(key: str) -> str
 
 Build a JSON path expression for a metadata key.
 
-Simple identifiers become ``$.key``; keys with spaces or special
-characters become the quoted form ``$."my key"`` with ``"`` and ``\``
-escaped, which ``json_extract`` understands.
+Simple identifiers become `$.key`; keys with spaces or special
+characters become the quoted form `$."my key"` with `"` and `\`
+escaped, which `json_extract` understands.
 
 
 **Args:**
@@ -22,7 +22,7 @@ escaped, which ``json_extract`` understands.
 
 
 **Returns:**
-- `str`: A path expression usable by ``json_extract(metadata, <path>)``.
+- `str`: A path expression usable by `json_extract(metadata, <path>)`.
 
 
 **Example:**

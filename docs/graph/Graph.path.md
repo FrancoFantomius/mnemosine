@@ -12,7 +12,7 @@ Graph.path(self, start, target, max_depth=100)
 
 Find the shortest undirected path between two nodes via BFS.
 
-Returns ``None`` when no path exists within ``max_depth``. The route
+Returns `None` when no path exists within `max_depth`. The route
 includes both endpoints, in order.
 
 
@@ -23,8 +23,8 @@ includes both endpoints, in order.
 
 
 **Returns:**
-- `list of Node | None`: The shortest route from ``start`` to
-- ``target`` (inclusive), or ``None`` if unreachable.
+- `list of Node | None`: The shortest route from `start` to
+- `target` (inclusive), or `None` if unreachable.
 
 
 **Example:**

@@ -12,8 +12,8 @@ loads(text)
 
 Parse a JSON string back into a Python value.
 
-Empty or ``None`` input is treated as an empty mapping, which is the
-convention used for the ``metadata`` columns.
+Empty or `None` input is treated as an empty mapping, which is the
+convention used for the `metadata` columns.
 
 
 **Args:**
@@ -21,12 +21,12 @@ convention used for the ``metadata`` columns.
 
 
 **Returns:**
-- `object`: The decoded value; an empty ``dict`` when ``text`` is empty
-- or ``None``.
+- `object`: The decoded value; an empty `dict` when `text` is empty
+- or `None`.
 
 
 **Raises:**
-- `json.JSONDecodeError`: If ``text`` is not valid JSON.
+- `json.JSONDecodeError`: If `text` is not valid JSON.
 
 
 **Example:**

@@ -14,7 +14,7 @@ Hash nodes by their id so they work in sets and dict keys.
 
 
 **Returns:**
-- `int`: ``hash(self.id)``.
+- `int`: `hash(self.id)`.
 
 
 **Example:**

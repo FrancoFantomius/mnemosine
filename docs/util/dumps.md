@@ -12,7 +12,7 @@ dumps(value) -> str
 
 Serialize a Python value to a compact JSON string.
 
-Uses ``ensure_ascii=False`` so non-ASCII text is kept readable, and
+Uses `ensure_ascii=False` so non-ASCII text is kept readable, and
 compact separators so the stored metadata stays small.
 
 
@@ -21,11 +21,11 @@ compact separators so the stored metadata stays small.
 
 
 **Returns:**
-- `str`: The compact JSON representation of ``value``.
+- `str`: The compact JSON representation of `value`.
 
 
 **Raises:**
-- `TypeError`: If ``value`` is not JSON-serializable.
+- `TypeError`: If `value` is not JSON-serializable.
 
 
 **Example:**

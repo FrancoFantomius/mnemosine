@@ -5,7 +5,7 @@
 Small shared helpers.
 
 Utilities used across the mnemosine package for timestamps, JSON
-serialization, and SQL ``LIKE`` escaping.
+serialization, and SQL `LIKE` escaping.
 
 ## Functions
 
