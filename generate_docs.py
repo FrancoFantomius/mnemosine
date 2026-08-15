@@ -47,7 +47,8 @@ SECTION_HEADERS = {
     "Tip",
     "Tips",
 }
-_HEADER_RE = re.compile(rf"^({'|'.join(SECTION_HEADERS)}):$")
+_SPHINX_ROLE_RE = re.compile(r":(?:class|meth|func|attr|mod|ref|exc):`([^`]+)`")
+_DOUBLE_BACKTICK_RE = re.compile(r"``([^`]+)``")
 
 
 def render_docstring(doc: str | None) -> list[str]:
@@ -66,6 +67,8 @@ def render_docstring(doc: str | None) -> list[str]:
     in_section = False
     for raw in doc.split("\n"):
         line = raw.strip()
+        line = _SPHINX_ROLE_RE.sub(r"`\1`", line)
+        line = _DOUBLE_BACKTICK_RE.sub(r"`\1`", line)
 
         # A section header on its own line.
         if not in_code and _HEADER_RE.match(line):
@@ -351,14 +354,23 @@ def main() -> None:
     Returns:
         None
     """
-    if DOCS_DIR.exists():
-        shutil.rmtree(DOCS_DIR)
-    DOCS_DIR.mkdir(parents=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Collect module sources
+    sources = [
+        s for s in sorted(PACKAGE_DIR.glob("*.py"))
+        if s.name != "generate_docs.py"
+    ]
+
+    # Clean existing generated module directories only (preserving .vitepress, index.md, guide, etc.)
+    for source in sources:
+        folder = "package" if source.name == "__init__.py" else source.stem
+        target_dir = DOCS_DIR / folder
+        if target_dir.exists():
+            shutil.rmtree(target_dir)
 
     total = 0
-    for source in sorted(PACKAGE_DIR.glob("*.py")):
-        if source.name == "generate_docs.py":
-            continue
+    for source in sources:
         folder, count = generate_module(source)
         total += count
         print(f"  {source.name:>16} -> docs/{folder}/  ({count} entries)")

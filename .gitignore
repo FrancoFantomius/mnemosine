@@ -39,3 +39,8 @@ Thumbs.db
 *.sqlite
 *.sqlite3
 *.db-journal
+
+# Node / VitePress
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/

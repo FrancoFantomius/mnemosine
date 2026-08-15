@@ -93,7 +93,9 @@ nodes_vec  (sqlite-vec virtual table, created on first embed)
 
 ## Documentation
 
-https://github.com/FrancoFantomius/mnemosine/tree/main/docs
+The full documentation and API reference are available on GitHub Pages:
+**https://francofantomius.github.io/mnemosine/**
+
 
 ## Running tests
 
